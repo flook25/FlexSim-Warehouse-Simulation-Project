@@ -1,6 +1,10 @@
 # 🏭 Warehouse Simulation: Optimizing Picking & Putaway Operations
 
-[![Tool: FlexSim](https://img.shields.io/badge/Tool-FlexSim-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0xIDE3di0yaDJ2MmgtMnpNMTEgN2gxLjI1TDE0IDEzLjI1VjE1aC00di0xLjUybDEuNzUtMy43My0xLjU4LTIuOTVIMTF6Ii8+PC9zdmc+)](https://www.flexsim.com/)
+<div align="center">
+  <a href="https://www.flexsim.com/" target="_blank">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShja8JfKM_3lDACINztvcPXexbQhPZRkb0g&s" alt="FlexSim Logo" height="200"/>
+  </a>
+</div>
 
 ---
 
@@ -15,7 +19,7 @@ This project simulates the core operations of a distribution center—**order pi
 <!-- 
 IMPORTANT: This is the most critical part! 
 1. Record a short video of your FlexSim model running.
-2. Convert it to a GIF using a tool like 'ScreenToGif' or an online converter.
+2. Convert it to a GIF (e.g., using ScreenToGif).
 3. Upload the GIF to this GitHub repository and replace the link below.
 -->
 <div align="center">
@@ -26,21 +30,21 @@ IMPORTANT: This is the most critical part!
 
 ## 🎯 Key Objectives
 
-- **Model Existing System:** To create a high-fidelity digital twin of the current warehouse layout, including racks, conveyors, and operator/AGV travel paths.
+- **Model Existing System:** To create a high-fidelity digital twin of the current warehouse layout, including racks, conveyors, and operator travel paths.
 - **Identify Bottlenecks:** To analyze the system's performance to find areas of congestion, resource underutilization, or excessive travel time.
-- **Test 'What-If' Scenarios:** To compare the current operational strategy against proposed improvements (e.g., changing picking logic, adding more resources, redesigning the layout).
+- **Test 'What-If' Scenarios:** To compare the current operational strategy against proposed improvements (e.g., changing picking logic, adding more resources).
 - **Provide Data-Driven Recommendations:** To quantify the impact of proposed changes on key performance indicators (KPIs).
 
 ---
 
 ## ⚙️ Methodology
 
-1.  **Model Building:** The warehouse environment was constructed in FlexSim, including a detailed layout of storage racks (A-class, B-class products), receiving/shipping docks, and travel networks.
+1.  **Model Building:** The warehouse environment was constructed in FlexSim, including a detailed layout of storage racks, receiving/shipping docks, and travel networks.
 2.  **Process Logic Definition:** Custom logic was developed for:
     *   **Putaway:** Incoming pallets are assigned to the nearest available, appropriate storage location.
-    *   **Picking:** Operators are assigned orders based on a picklist, following a specified travel path (e.g., S-shape, largest gap).
-3.  **Data Integration:** The model was driven by real-world data (or realistic sample data) from Excel/CSV files, including order arrivals, product SKUs, and processing times.
-4.  **Experimentation & Analysis:** The FlexSim Experimenter was used to run multiple simulation replications for different scenarios. The performance was compared using FlexSim's built-in dashboards and statistical reports.
+    *   **Picking:** Operators are assigned orders based on a picklist, following a specified travel path (e.g., S-shape).
+3.  **Data Integration:** The model was driven by realistic sample data from Excel/CSV files, including order arrivals and processing times.
+4.  **Experimentation & Analysis:** The FlexSim Experimenter was used to run multiple simulation replications for different scenarios. Performance was compared using FlexSim's built-in dashboards and statistical reports.
 
 ---
 
@@ -51,7 +55,7 @@ This simulation successfully identified several areas for improvement. By implem
 - ✅ **18% Reduction** in average order picking travel time.
 - ✅ **25% Increase** in daily order throughput.
 - ✅ **Identification of the optimal number of AGVs** to be 5, balancing throughput against operational cost.
-- ✅ **Validation** that a batch picking strategy would significantly outperform single-order picking for this specific layout.
+- ✅ **Validation** that a batch picking strategy would significantly outperform single-order picking for this layout.
 
 ---
 
