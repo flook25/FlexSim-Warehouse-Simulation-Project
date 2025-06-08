@@ -1,4 +1,5 @@
 # 🏭 Warehouse Simulation: Optimizing Picking & Putaway Operations
+[![Tool: FlexSim](https://img.shields.io/badge/Tool-FlexSim-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0xIDE3di0yaDJ2MmgtMnpNMTEgN2gxLjI1TDE0IDEzLjI1VjE1aC00di0xLjUybDEuNzUtMy43My0xLjU4LTIuOTVIMTF6Ii8+PC9zdmc+)](https://www.flexsim.com/)
 
 <div align="center">
   <a href="https://www.flexsim.com/" target="_blank">
